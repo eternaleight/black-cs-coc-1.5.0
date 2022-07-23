@@ -34,26 +34,6 @@ span.token.keyword{
 }
 
 /* ダークモード*/
-	span.site-name-text,.navi-menu-content, .menu-drawer a{
-	background-color:  #25252800;
-	 color: white;
-	}
-.navi-menu-content{
-	background-color:  #25252800;
-	 color: white;
-	}
-.menu-drawer a {
-	 color: white;
-}
-.menu-content {
-}
-.menu-close-button::before {
-    font-family: FontAwesome;
-    content: "";
-    padding-right: 3px;
-    padding: 0;
-    font-size: 2em;
-}
 .mobile-menu-buttons  {
 	background: transparent;
 }
@@ -72,6 +52,21 @@ span.token.keyword{
 #header-container .navi, #navi .navi-in>.menu-header .sub-menu {
     background: #151518;
 	/* background-color: #0D1116; */
+}
+.navi-menu-button.menu-button:hover {
+    background: #ffffff00;
+}
+.home-menu-button.menu-button:hover {
+    background: #ffffff00;
+}
+.search-menu-button.menu-button:hover {
+    background: #ffffff00;
+}
+.top-menu-button.menu-button:hover {
+    background: #ffffff00;
+}
+.sidebar-menu-button.menu-button:hover {
+    background: #ffffff00;
 }
 .entry-card-thumb img,.eye-catch img{
 	opacity:0.98;
