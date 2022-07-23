@@ -1,4 +1,4 @@
-const darkTheme = "/wp-content/themes/the-sonic-child/darkmode.css";
+const darkTheme = "/wp-content/themes/cocoon-1.5.0/css/darkmode.css";
 const btn = document.querySelector("#mode-toggle");
 const currentTheme = localStorage.getItem("mode");
 const theme = document.querySelector("#theme-mode");

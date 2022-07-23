@@ -1,86 +1,4 @@
 @charset "UTF-8";
-/* ダークモード*/
-	span.site-name-text,.navi-menu-content, .menu-drawer a{
-	background-color:  #25252800;
-	 color: white;
-	}
-.navi-menu-content{
-	background-color:  #25252800;
-	 color: white;
-	}
-.menu-drawer a {
-	 color: white;
-}
-.menu-content {
-}
-.menu-close-button::before {
-    font-family: FontAwesome;
-    content: "";
-    padding-right: 3px;
-    padding: 0;
-    font-size: 2em;
-}
-.mobile-menu-buttons  {
-	background: transparent;
-}
-.mobile-menu-buttons .menu-button > a {
-    color: #aaaaaa99;
-    text-decoration: none;
-    cursor: pointer;
-}
-
- body, .header, .main, .footer, .sidebar, .popular-entry-card-link, .entry-card-wrap, .menu-header, .site-name-text, .sidebar h3, .widget_categories ul li a, .widget_recent_entries ul li a, ol ,.blogcard, .widget_archive ul li a,.sidebar-menu-content,.a-wrap,.blogcard-wrap:hover {
-	background-color: #151518;
-	color: #ddd;
-}
-#header-container .navi, #navi .navi-in>.menu-header .sub-menu {
-    background: #151518;
-}
-.entry-card-thumb img,.eye-catch img{
-	opacity:0.98;
-	transition: 0.8s;
-}
-img:hover {
-	transition: 0.8s;
-}
-
-.entry-card-wrap:hover{
-	background: #212128;
-	color: #ddd;
-}
-
-input.search-edit {
-	font-size: 16px;
-	padding: 13px;
-		color: #dfdfe8;
-}
-.sidebar h3{
-	border-bottom: none;
-}
-.search-edit , .comment-btn{
-		background-color: #353538;
-		color: #dfdfe8;
-}
-.comment-btn:hover {
-	background-color: #353538;
-		color: #dfdfe8;
-}
-
-input[type='submit'] {
-background: #252528;
-}
-textarea#comment {
-	background: #252528;
-	color: #dfdfe8;
-	border: solid 0px #ddd;
-}
-textarea#comment:focus{
-	outline:none;
-	border:none;
-}
-.comment-form .required {
-	color: #dfdfe8;
-}
 
 /* コードブロック*/
 pre.prism.line-numbers, code.language-bash,.hcb_wrap.hcb_wrap code,pre,.hcb_wrap.hcb_wrap code, .hcb_wrap.hcb_wrap pre{
@@ -113,4 +31,113 @@ span.token.operator{
 }
 span.token.keyword{
 	color: #5b9595;
+}
+
+/* ダークモード*/
+	span.site-name-text,.navi-menu-content, .menu-drawer a{
+	background-color:  #25252800;
+	 color: white;
+	}
+.navi-menu-content{
+	background-color:  #25252800;
+	 color: white;
+	}
+.menu-drawer a {
+	 color: white;
+}
+.menu-content {
+}
+.menu-close-button::before {
+    font-family: FontAwesome;
+    content: "";
+    padding-right: 3px;
+    padding: 0;
+    font-size: 2em;
+}
+.mobile-menu-buttons  {
+	background: transparent;
+}
+.mobile-menu-buttons .menu-button > a {
+    color: #aaaaaa99;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ body, .header, .main, .footer, .sidebar, .popular-entry-card-link, .entry-card-wrap, .menu-header, .site-name-text, .sidebar h3, .widget_categories ul li a, .widget_recent_entries ul li a, ol ,.blogcard, .widget_archive ul li a,.sidebar-menu-content,.a-wrap,.blogcard-wrap:hover {
+	background-color: #151518;
+	/* background-color: #0D1116; */
+	color: #ddd;
+	color: #C9D1D9;
+}
+#header-container .navi, #navi .navi-in>.menu-header .sub-menu {
+    background: #151518;
+	/* background-color: #0D1116; */
+}
+.entry-card-thumb img,.eye-catch img{
+	opacity:0.98;
+	transition: 0.8s;
+}
+img:hover {
+	transition: 0.8s;
+}
+
+.entry-card-wrap:hover{
+	background: #212128;
+	color: #ddd;
+	color: #C9D1D9;
+}
+
+input.search-edit {
+		color: #dfdfe8;
+}
+
+.sidebar h3{
+	border-bottom: none;
+}
+.search-edit , .comment-btn{
+		background-color: #353538;
+		color: #dfdfe8;
+}
+.comment-btn:hover {
+	background-color: #353538;
+		color: #dfdfe8;
+}
+
+input[type='submit'] {
+background: #252528;
+}
+textarea#comment {
+	background: #252528;
+	color: #dfdfe8;
+	border: solid 0px #ddd;
+}
+textarea#comment:focus{
+	outline:none;
+	border:none;
+}
+.comment-form .required {
+	color: #dfdfe8;
+}
+a.popular-entry-card-link.a-wrap:hover {
+	background: #151518;
+	/* background-color: #0D1116; */
+	color:  #ddd;
+	color: #C9D1D9;
+}
+.header, .header-in, header span.site-name-text{
+  /* background-color:  #252528; */
+	/* background-color: #161B21; */
+	background-color: #161A21;
+  color: white;
+}
+.header-in .site-name-text{
+  color: white;
+}
+.content-in .main{
+	 background-color: #151518;
+	/* background-color: #0D1116; */
+}
+.a-wrap:hover { 
+  background-color: #151518;
+	color: #C9D1D9;
 }

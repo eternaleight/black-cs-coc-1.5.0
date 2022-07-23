@@ -7405,7 +7405,7 @@ pre {
 	font-size: 18px;
 	line-height: 28px;
 	text-align: center;
-	content: "";
+	content: "🌙";
 }
 .darkmode-pc label>input[type=checkbox]:checked+span::after {
 	background-color: #888;
@@ -7439,7 +7439,7 @@ pre {
 	line-height: 58px;
 	text-align: center;
 	opacity: .8;
-	content: "";
+	content: "🌙";
 }
 .darkmode-sp label>input[type=checkbox]:checked+span::before {
 	filter: grayscale(.8);
@@ -7447,4 +7447,18 @@ pre {
 }
 .darkmode-sp label>input[type=checkbox]+span::before {
 	background: #555;
+}
+
+/*モバイルフッターダークモードアイコン*/
+.mobile-footer-menu a:empty {
+	display: none;
+}
+.mobile-footer-menu #mode-toggle i {
+	transform: rotate(240deg);
+}
+
+@media screen and (min-width: 768px) {
+  .icon {
+    display: none;
+  }
 }
