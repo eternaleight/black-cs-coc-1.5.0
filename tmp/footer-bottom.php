@@ -17,3 +17,9 @@
   </div>
 
 </div>
+<div class="darkmode-sp">
+<label>
+	<input type="checkbox" id="mode-toggle">
+		<span></span>
+</label>
+</div>

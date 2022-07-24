@@ -8,7 +8,7 @@
 
 if (is_mobile_button_layout_type_slide_in()): ?>
 
-<div class="mobile-menu-buttons">
+<div class="mobile-menu-buttons mobile-footer-menu-buttons">
   <?php if (has_nav_menu( 'navi-header' )): ?>
     <!-- メニューボタン -->
     <div class="navi-menu-button menu-button">

@@ -123,10 +123,10 @@ a.popular-entry-card-link.a-wrap:hover {
   /* background-color:  #252528; */
 	/* background-color: #161B21; */
 	background-color: #161A21;
-  color: white;
+    color: #C9D1D9;
 }
 .header-in .site-name-text{
-  color: white;
+    color: #C9D1D9;
 }
 .content-in .main{
 	 background-color: #151518;
@@ -135,4 +135,10 @@ a.popular-entry-card-link.a-wrap:hover {
 .a-wrap:hover { 
   background-color: #151518;
 	color: #C9D1D9;
+}
+.source-org.copyright {
+  color: #C9D1D9;
+}
+.item-label {
+    color: #C9D1D9;
 }

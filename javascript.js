@@ -60,6 +60,32 @@
     startPos = currentPos;
   });
 
+  //フッターモバイルメニュー
+  var footerMenu = $(".mobile-footer-menu-buttons");
+  var footerHeight = footerMenu.outerHeight();
+  var footerStartPos = 0;
+  $(window).scroll(function(){
+    var footerCurrentPos = $(this).scrollTop();
+
+    // if (footerCurrentPos - footerStartPos > 20) {
+    //   if(footerCurrentPos >= 100) {
+    //     footerMenu.css("bottom","calc( -1 * (env(safe-area-inset-bottom) + " + footerHeight + "px) )");
+    //   }
+    // } else if (footerCurrentPos - footerStartPos < -8) {
+    //   footerMenu.css("bottom", 0);
+    // }
+
+    if (footerCurrentPos > footerStartPos) {
+      if(footerCurrentPos >= 100) {
+        footerMenu.css("bottom","calc( -1 * (env(safe-area-inset-bottom) + " + footerHeight + "px) )");
+      }
+    } else if (footerCurrentPos - footerStartPos < -8) {
+      footerMenu.css("bottom", 0);
+    }
+
+    footerStartPos = footerCurrentPos;
+  });
+
   //コメントボタンがクリックされたとき
   $('#comment-reply-btn, .comment-reply-link').click(function() {
     //$('#respond').slideToggle();
@@ -72,20 +98,20 @@
 })(jQuery);
 
 /*
-* Cocoon WordPress Theme incorporates code from "Youtube SpeedLoad" WordPress Plugin, Copyright 2017 Alexufo[http://habrahabr.ru/users/alexufo/]
+ * Cocoon WordPress Theme incorporates code from "Youtube SpeedLoad" WordPress Plugin, Copyright 2017 Alexufo[http://habrahabr.ru/users/alexufo/]
 "Youtube SpeedLoad" WordPress Plugin is distributed under the terms of the GNU GPL v2
 */
 (function(){
-    var f = document.querySelectorAll(".video-click");
-    for (var i = 0; i < f.length; ++i) {
+  var f = document.querySelectorAll(".video-click");
+  for (var i = 0; i < f.length; ++i) {
     f[i].onclick = function () {
       var iframe = this.getAttribute("data-iframe");
       this.parentElement.innerHTML = '<div class="video">' + iframe + '</div>';
     }
-    }
+  }
 })();
 
 //Passive Event Listener を使用してサイトでのスクロール パフォーマンスを向上させる
 if ('ontouchstart' in document.documentElement) {
-    document.addEventListener('touchstart', function(){}, {passive: true});
+  document.addEventListener('touchstart', function(){}, {passive: true});
 }

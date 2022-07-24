@@ -7430,23 +7430,23 @@ pre {
 .darkmode-sp label>input[type=checkbox]:checked+span:before,
 .darkmode-sp label>input[type=checkbox]+span:before {
 	display: block;
-	width: 58px;
-	height: 58px;
+	width: 50px;
+	height: 50px;
 	margin: 3px;
 	border-radius: 50%;
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
-	font-size: 28px;
-	line-height: 58px;
+	font-size: 23px;
+	line-height: 50px;
 	text-align: center;
-	opacity: .8;
+	opacity: .3;
 	content: "🌙";
 }
 .darkmode-sp label>input[type=checkbox]:checked+span::before {
 	filter: grayscale(.8);
-	background: #888;
+	/* background: #888; */
 }
 .darkmode-sp label>input[type=checkbox]+span::before {
-	background: #555;
+	/* background: #555; */
 }
 
 /*モバイルフッターダークモードアイコン*/

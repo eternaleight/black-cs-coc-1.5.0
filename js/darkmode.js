@@ -18,13 +18,13 @@ else if (currentTheme == "dark") {
   darkMode();
 }
 // 消すと初回はライトモード
-else {
-  if (isLight) {
-    lightMode();
-  } else if (!isLight) {
-    darkMode();
-  }
-}
+// else {
+//   if (isLight) {
+//     lightMode();
+//   } else if (!isLight) {
+//     darkMode();
+//   }
+// }
 const toggleDark = () => {
   if (theme.getAttribute("href") == "") {
     darkMode();
