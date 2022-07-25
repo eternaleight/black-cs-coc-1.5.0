@@ -140,5 +140,33 @@ a.popular-entry-card-link.a-wrap:hover {
   color: #C9D1D9;
 }
 .item-label {
-    color: #C9D1D9;
+  color: #C9D1D9;
+}
+@media screen and (max-width: 768px) {
+  .entry-card-wrap {
+    box-shadow: 0 5px 0 #111125;
+    outline: 4px solid #111125;
+  }
+}
+
+.entry-card-wrap .entry-card-title {
+  color: #58a6ff;
+  border-bottom: 2px #58a6ff;
+}
+.entry-card-wrap .entry-card-title:hover {
+  color: #58a6ff;
+}
+
+#navi .navi-in a:hover{
+  background-color: #151518;
+  letter-spacing: 0px;
+  cursor: default;
+}
+.item-label {
+  display: inline;
+  cursor: pointer;
+}
+.item-label:hover {
+  text-decoration: underline 2px;
+  color: #58a6ff;
 }
