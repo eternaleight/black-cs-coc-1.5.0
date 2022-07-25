@@ -160,7 +160,11 @@ a.popular-entry-card-link.a-wrap:hover {
 #navi .navi-in a:hover{
   background-color: #151518;
   letter-spacing: 0px;
-  cursor: default;
+  cursor: pointer;
+      color: #c9d1d9;;
+    text-decoration: none;
+    background: rgba(177,186,196,0.12);
+    transition: background .12s ease-out;
 }
 .item-label {
   display: inline;
