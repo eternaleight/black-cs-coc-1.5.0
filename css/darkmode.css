@@ -6,7 +6,8 @@ pre.prism.line-numbers, code.language-bash,.hcb_wrap.hcb_wrap code,pre,.hcb_wrap
 	text-shadow: none;
 }
 .hcb_wrap.hcb_wrap code {
-	color: #afafbf;
+	/* color: #afafbf; */
+  color: #aaafbf;
 }
 span.token.string {
 	color: #5b9595;

@@ -40,10 +40,10 @@ const toggleDark = () => {
 }
 btn.addEventListener("click", toggleDark);
 //開発モード
-let keyPress = 81;
-window.addEventListener("keydown", checkKeyPress);
-function checkKeyPress(key) {
-  if (key.keyCode === keyPress) {
-    toggleDark();
-  }
-}
+// let keyPress = 81;
+// window.addEventListener("keydown", checkKeyPress);
+// function checkKeyPress(key) {
+//   if (key.keyCode === keyPress) {
+//     toggleDark();
+//   }
+// }
