@@ -9,7 +9,7 @@ const lightMode = () => {
 }
 const darkMode = () => {
   theme.href = darkTheme;
-  btn.checked = true;
+  btn.checked = true
 }
 if (currentTheme == "light") {
   lightMode();
